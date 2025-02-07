@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meia vida</title>
+
+    <!--FavIcon-->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
     <!--Css-->
     <link rel="stylesheet" href="css/style.css">
@@ -18,24 +22,61 @@
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <div id="logo">
-                <a href="index.html"><img src="img/logo.png" alt=""> <h1>Meia vida</h1></a>
+
+            <div>
+                <a href="index.html">
+                    <img src="img/logo.png" id="logo" alt="">
+                    <span>Meia vida</span>
+                </a>
             </div>
 
-            <div class="item">
+            <div id="items">
                 <a href="">Especialidades e Serviços</a>
                 <a href="">Convênio</a>
                 <a href="">Ouvidoria</a>
                 <a href="">Guia do paciente</a>
+
+                <!-- Example single danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn rounded" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #3e4e50;"></i>
+                    </button>
+
+                    <ul class="dropdown-menu border-0 mt-4">
+
+                        <form action="https://www.google.com/search" method="get" id="formSearch">
+                            <input type="search" name="q" class="rounded" id="inputSearch" placeholder="Search">
+                        </form>
+                    </ul>
+                </div>
+
             </div>
         </nav>
+
     </header>
 
-    <main></main>
-    
-    <footer></footer>
+    <main>
+
+        <article>
+        </article>
+
+        <aside>
+        </aside>
+
+    </main>
+
+    <footer>
+
+        <div class="camadasFooter"></div>
+        <div class="camadasFooter"></div>
+        <div class="camadasFooter"></div>
+
+    </footer>
 </body>
+
 </html>
