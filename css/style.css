@@ -1,23 +1,66 @@
-header{
-    background-color: red;
-    height: 50%;
+/* Reset do CSS */
+
+* {
+    box-sizing: border-box;
+    outline: none;
 }
 
-header img{
-    padding: 10px;
-    width: 100px;
+html,
+body,
+#wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Resposividade: cria a unidade responsiva `rem` → 1rem = 16px*/
+    font-size: 16px;
 }
 
-nav{
+#wrap {
+    margin: auto;
+    
+}
+
+header {
+    background-color: brown;
+        
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    
+}
+
+header img {
+    display: block;
+    width: 4rem;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+header span {
+    flex-grow: 1;
+    margin: 0;
+    margin-left: 1rem;
+    -webkit-text-stroke: .7px white;
+    font-size: x-large;
+}
+
+header nav ul {
+    list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-nav .item{
-    display: flex;
-    align-items: center;
-}
-
-nav a{
-    margin-left: 10px;
+footer ul a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    
 }
