@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meia vida</title>
+    <title>meia vida - faca contato</title>
 
     <!--Css-->
     <link rel="stylesheet" href="css/style.css">
@@ -73,12 +73,17 @@
 
     <main class="bg-light flex-grow-1 d-flex">
         <article class="col-12 col-md-9 flex-grow-1">
-            <h1>Article</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis temporibus odit in obcaecati eveniet
-            minima
-            sint reiciendis! Maxime, iure sequi eum quasi nobis, facere doloribus deserunt mollitia asperiores
-            corporis
-            qui?
+           <h1>Faça contato</h1>
+           <p>Preencha todos os campos para entrar em contato com a nossa equipe.</p>
+
+           <form action="processo.html" method="post" id="formContato">
+
+            <p><label for="campoNome">Nome:</label><input type="text" name="campoNome" id="campoNome" placeholder="Seu nome completo" minlength="2" required></p>
+            <p><label for="campoEmail">Email:</label><input type="email" name="campoEmail" id="campoEmail" placeholder="Digite seu email" required></p>
+            <p><label for="campoAssunto">Assunto:</label><input type="text" name="campoAssunto" id="campoAssunto" placeholder="Assunto" minlength="5" required></p>
+            <p><label for="campoMensagem">Mensagem:</label><textarea name="campoMensagem" id="campoMensagem" placeholder="Mensagem" minlength="10" required></textarea></p>
+            <p><button type="submit">Enviar</button></p>
+           </form>
         </article>
         <aside class="col-12 col-md-3">
             <h1>Aside</h1>

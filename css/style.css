@@ -19,8 +19,7 @@ body,
 }
 
 #wrap {
-    margin: auto;
-    
+    margin: auto;    
 }
 
 header {
@@ -63,4 +62,25 @@ footer ul a{
     color: white;
     font-size: large;
     
+}
+
+#formContato{
+    display: table;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+#formContato label{
+    display: block;
+
+}
+
+#formContato input, #formContato textarea{
+    width: 100%;
+    padding: .6rem;
+}
+
+#formContato textarea{
+    height: 8rem;
 }
