@@ -1,0 +1,40 @@
+/*FORM CADASTRO PET*/
+
+.formCadastroPet{
+    display: table;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 1rem;
+    margin-bottom: .5rem;   
+}
+
+.formCadastroPet label{
+    display: block;
+}
+
+.formCadastroPet input, .formCadastroPet textarea{
+    width: 100%;
+    padding: .5rem .1rem;
+    border: 2px solid rgb(231, 62, 11);
+    border-radius: .3rem;
+}
+
+#especie{
+    border: 2px solid rgb(231, 62, 11);
+    margin-bottom: 1rem;
+}
+
+#especie:focus{
+    box-shadow: none;
+}
+
+#sexo{
+    border: 2px solid rgb(231, 62, 11);
+    margin-bottom: 1rem;
+}
+
+#sexo:focus{
+    box-shadow: none;
+}
+
+/*FORM CADASTRO PET*/

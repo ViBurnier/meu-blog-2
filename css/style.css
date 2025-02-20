@@ -23,7 +23,7 @@ body,
 }
 
 header {
-    background-color: brown;
+    background-color: #a52a2a;
         
 }
 
@@ -64,6 +64,7 @@ footer ul a{
     
 }
 
+/*FORM CONTATO*/
 #formContato{
     display: table;
     width: 100%;
@@ -79,7 +80,7 @@ footer ul a{
 #formContato input, #formContato textarea{
     width: 100%;
     padding: .5rem .1rem;
-    border: 1px solid rgb(231, 62, 11);
+    border: 2px solid rgb(231, 62, 11);
     border-radius: .3rem;
 }
 
@@ -116,8 +117,9 @@ input::selection {
     color: inherit; /* Mantém a cor do texto original */
 }
 
-/* Aside */
+/*FORM CONTATO*/
 
+/* Aside */
 main aside{
     background-color: #e0e1e271;
     display: flex;
@@ -131,6 +133,6 @@ main aside div{
 }
 main aside a{
     padding-left: .9rem;
-
-   
 }
+/* Aside */
+
