@@ -112,11 +112,6 @@ footer ul a{
     background-color: blue;
 }
 
-input::selection {
-    background: none; /* Define o fundo como transparente */
-    color: inherit; /* Mantém a cor do texto original */
-}
-
 /*FORM CONTATO*/
 
 /* Aside */
