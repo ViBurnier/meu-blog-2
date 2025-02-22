@@ -129,5 +129,42 @@ main aside div{
 main aside a{
     padding-left: .9rem;
 }
+
+main aside li{
+    list-style: none;
+}
 /* Aside */
 
+/* dialog */
+
+#dialogFormBusca{
+    border: none;
+    border-radius: 1rem;
+    
+    
+}
+
+#dialogFormBusca > form{
+    margin-top: .9rem;
+    margin-bottom: .9rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+#dialogFormBusca > form > input{
+    width: 500px;
+    border: none;
+    border-right: none;
+   
+}
+
+#dialogFormBusca > form > a{
+    border-left: none;
+}
+
+#dialogFormBusca > button{
+    border: none;
+    background-color: white;
+
+}

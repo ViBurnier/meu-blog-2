@@ -22,9 +22,11 @@
 
 <body>
     <div id="wrap" class="container d-flex flex-column">
+
         <header>
             <a href="index.html"><img src="img/logo.png" alt=""> <Span>Meia vida</Span></a>
         </header>
+
 
         <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
             <div class="container-fluid">
@@ -55,7 +57,7 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button"
                                 data-bs-toggle="dropdown">Sobre</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Privacidade</a></li>
+                                <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
                                 <li><a class="dropdown-item" href="#">Empresa</a></li>
                                 <li><a class="dropdown-item" href="contatos.html">Contatos</a></li>
                             </ul>
@@ -65,7 +67,7 @@
 
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="procurar.html">
+                            <a class="nav-link" href="procurar.html" onclick="document.getElementById('dialogFormBusca').showModal(); return false;">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                                 <span class="d-inline d-sm-none">PROCURAR</span>
                             </a>
@@ -163,6 +165,22 @@
 
         </footer>
     </div>
+
+    <!-- Modal e popup com formulário de busca -->
+    <dialog id="dialogFormBusca">
+        <button id="closeDialog"><i class="fa-solid fa-xmark fa-xl"></i></button>
+        <form action="procurar.html">
+            <input type="search" name="q" id="">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </form>
+    </dialog>
+    
+    <!-- Script para fechar o moidal -->
+    <script>
+         document.getElementById("closeDialog").addEventListener("click", () => {
+            document.getElementById("dialogFormBusca").close(); // Fecha o diálogo
+        });
+    </script>
 </body>
 
 </html>

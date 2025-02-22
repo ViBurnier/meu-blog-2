@@ -65,7 +65,7 @@
 
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="procurar.html">
+                            <a class="nav-link" href="procurar.html" onclick="document.getElementById('dialogFormBusca').showModal(); return false;">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                                 <span class="d-inline d-sm-none">PROCURAR</span>
                             </a>
@@ -97,8 +97,12 @@
                 </article>
 
                 <aside class="col-12 col-md-3">
-                    <h1>Aside</h1>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero iure nostrum.
+                    <h3>Numero para contato</h3>
+                    <ul>
+                        <li>21 989898898</li>
+                        <li>42 989898898</li>
+                        <li>32 989898898</li>
+                    </ul>
                 </aside>
             </div>
         </main>
@@ -172,6 +176,22 @@
 
         </footer>
     </div>
+
+    <!-- Modal e popup com formulário de busca -->
+    <dialog id="dialogFormBusca">
+        <button id="closeDialog"><i class="fa-solid fa-xmark fa-xl"></i></button>
+        <form action="procurar.html">
+            <input type="search" name="q" id="">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </form>
+    </dialog>
+    
+    <!-- Script para fechar o moidal -->
+    <script>
+         document.getElementById("closeDialog").addEventListener("click", () => {
+            document.getElementById("dialogFormBusca").close(); // Fecha o diálogo
+        });
+    </script>
 </body>
 
 </html>

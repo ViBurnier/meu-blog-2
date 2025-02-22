@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meia vida - cadastro</title>
+    <title>meia vida</title>
 
     <!--Css-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cadastro.css">
 
     <!--BootStrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -23,9 +22,11 @@
 
 <body>
     <div id="wrap" class="container d-flex flex-column">
+
         <header>
             <a href="index.html"><img src="img/logo.png" alt=""> <Span>Meia vida</Span></a>
         </header>
+
 
         <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
             <div class="container-fluid">
@@ -51,14 +52,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="cadastro.html">Cadastro Pet</a>
                         </li>
-                        
-
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button"
                                 data-bs-toggle="dropdown">Sobre</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Privacidade</a></li>
+                                <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
                                 <li><a class="dropdown-item" href="#">Empresa</a></li>
                                 <li><a class="dropdown-item" href="contatos.html">Contatos</a></li>
                             </ul>
@@ -78,75 +77,16 @@
             </div>
         </nav>
 
+
         <main class="bg-light container flex-grow-1 d-flex">
-
             <div class="row d-flex flex-grow-1">
-
                 <article class="col-12 col-md-9 flex-grow-1">
-
-                    <h2>Cadastro do pet</h2>
-
-                    <form action="processo.html" method="post" class="formCadastroPet">
-
-                        <!-- Informações do pet -->
-
-                        <p><label for="campoNomePet">Nome do seu pet:</label><input type="text" name="campoNomePet"
-                                id="campoNomePet" placeholder="digite o Nome" minlength="2" required></p>
-
-
-                        <p><label for="campoIdade">Idade do pet:</label><input type="text" name="campoIdade"
-                                id="campoIdade" placeholder="digite a Idade" minlength="2" required></p>
-
-                        <p><label for="campoCor">Cor do seu pet:</label><input type="text" name="campoCor" id="campoCor"
-                                placeholder="Digite a cor" minlength="2" required></p>
-
-                        <p><label for="campoContatoEmergencia">Contato de emergência:</label><input type="text"
-                                name="campoContatoEmergencia" id="campoContatoEmergencia" placeholder="Digite aqui seu contato com ddd"
-                                minlength="11" required>
-                        </p>                     
-
-                        <p><label for="campoObservacoes">Observações sobre o pet:</label><textarea
-                                name="campoObservacoes" id="campoObservacoes" placeholder="Digite aqui" minlength="10"
-                                required></textarea>
-                        </p>
-
-                        
-                        
-                    </form>
                     
-                    <form action="" class="formCadastroPet">
-                        <div class="form-group ">
-                            <select class="form-control" id="especie">
-                                <option value="0">Espécie do seu pet</option>
-                                <option value="1">Cachorro</option>
-                                <option value="2">Gato</option>
-                                <option value="3">Peixe</option>
-                                <option value="4">Pássaro</option>
-                                <option value="5">Coelho</option>
-                                <option value="6">Hamster</option>
-                                <option value="7">Tartaruga</option>
-                            </select>
-                        </div>
-                    </form>
-                    
-                    
-                    
-                    <form action="" class="formCadastroPet" >
-                        <div class="form-group">
-                            <select class="form-control" id="sexo">
-                                <option value="0">Sexo</option>
-                                <option value="1">Macho</option>
-                                <option value="2">Fêmea</option>
-                            </select>
-                        </div>
-                    </form>
-                    <p><button type="submit" class="text-bg-dark btn">Enviar</button></p>
-                    
+                    <h2><span style="color: rgb(68, 68, 68);">Política Privacidade</span></h2><p><span style="color: rgb(68, 68, 68);">A sua privacidade é importante para nós. É política do Meia vida respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href="meiavida.com">Meia vida</a>, e outros sites que possuímos e operamos.</span></p><p><span style="color: rgb(68, 68, 68);">Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</span></p><p><span style="color: rgb(68, 68, 68);">Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</span></p><p><span style="color: rgb(68, 68, 68);">Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</span></p><p><span style="color: rgb(68, 68, 68);">O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas&nbsp;</span><a href="https://politicaprivacidade.com/" rel="noopener noreferrer" target="_blank" style="background-color: transparent; color: rgb(68, 68, 68);">políticas de privacidade</a><span style="color: rgb(68, 68, 68);">.</span></p><p><span style="color: rgb(68, 68, 68);">Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</span></p><p><span style="color: rgb(68, 68, 68);">O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</span></p><p><span style="color: rgb(68, 68, 68);"><ul><li><span style="color: rgb(68, 68, 68);">O serviço Google AdSense que usamos para veicular publicidade usa um cookie DoubleClick para veicular anúncios mais relevantes em toda a Web e limitar o número de vezes que um determinado anúncio é exibido para você.</span></li><li><span style="color: rgb(68, 68, 68);">Para mais informações sobre o Google AdSense, consulte as FAQs oficiais sobre privacidade do Google AdSense.</span></li><li><span style="color: rgb(68, 68, 68);">Utilizamos anúncios para compensar os custos de funcionamento deste site e fornecer financiamento para futuros desenvolvimentos. Os cookies de publicidade comportamental usados ​​por este site foram projetados para garantir que você forneça os anúncios mais relevantes sempre que possível, rastreando anonimamente seus interesses e apresentando coisas semelhantes que possam ser do seu interesse.</span></li><li><span style="color: rgb(68, 68, 68);">Vários parceiros anunciam em nosso nome e os cookies de rastreamento de afiliados simplesmente nos permitem ver se nossos clientes acessaram o site através de um dos sites de nossos parceiros, para que possamos creditá-los adequadamente e, quando aplicável, permitir que nossos parceiros afiliados ofereçam qualquer promoção que pode fornecê-lo para fazer uma compra.</span></li></ul><p><br></p></span></p><h3><span style="color: rgb(68, 68, 68);">Compromisso do Usuário</span></h3><p><span style="color: rgb(68, 68, 68);">O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Meia vida oferece no site e com caráter enunciativo, mas não limitativo:</span></p><ul><li><span style="color: rgb(68, 68, 68);">A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</span></li><li><span style="color: rgb(68, 68, 68);">B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, </span><span style="color: rgb(33, 37, 41);"><a href='https://pixbetoficial.br.com' style='color:inherit !important; text-decoration: none !important; font-size: inherit !important;'>pixbet</a></span><span style="color: rgb(68, 68, 68);"> ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</span></li><li><span style="color: rgb(68, 68, 68);">C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Meia vida, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</span></li></ul><h3><span style="color: rgb(68, 68, 68);">Mais informações</span></h3><p><span style="color: rgb(68, 68, 68);">Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</span></p><p><span style="color: rgb(68, 68, 68);">Esta política é efetiva a partir de&nbsp;21 February 2025 23:46</span></p>
                 </article>
-
                 <aside class="col-12 col-md-3">
                     <h1>Aside</h1>
-                    
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero iure nostrum.
                 </aside>
             </div>
         </main>
@@ -230,7 +170,7 @@
         </form>
     </dialog>
     
-    <!-- Script para fechar o modal -->
+    <!-- Script para fechar o moidal -->
     <script>
          document.getElementById("closeDialog").addEventListener("click", () => {
             document.getElementById("dialogFormBusca").close(); // Fecha o diálogo
