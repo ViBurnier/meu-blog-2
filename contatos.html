@@ -21,13 +21,18 @@
 </head>
 
 <body>
-    <div id="wrap" class="container d-flex flex-column">
+    <div id="wrap" class=" d-flex flex-column">
         <header>
-            <a href="index.html"><img src="img/logo.png" alt=""> <Span>Meia vida</Span></a>
+
+            <div class="container">
+                <a href="index.html"><img src="img/logo.png" alt=""> <Span>Meia vida</Span></a>
+            </div>
+
+
         </header>
 
         <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-            <div class="container-fluid">
+            <div class="container-fluid container">
                 <a class="navbar-brand" href="#">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
@@ -54,9 +59,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button"
                                 data-bs-toggle="dropdown">Sobre</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Privacidade</a></li>
-                                <li><a class="dropdown-item" href="#">Empresa</a></li>
+                            <<ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
+                                <li><a class="dropdown-item" href="empresa.html">Empresa</a></li>
                                 <li><a class="dropdown-item" href="contatos.html">Contatos</a></li>
                             </ul>
                         </li>
@@ -65,7 +70,8 @@
 
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="procurar.html" onclick="document.getElementById('dialogFormBusca').showModal(); return false;">
+                            <a class="nav-link" href="procurar.html"
+                                onclick="document.getElementById('dialogFormBusca').showModal(); return false;">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                                 <span class="d-inline d-sm-none">PROCURAR</span>
                             </a>
@@ -150,7 +156,7 @@
                         <li><a href="privacidade.html">
                                 <i class="fa-solid fa-lock"></i> Privacidade
                             </a></li>
-                        <li><a href="privacidade.html">
+                        <li><a href="localizacao.html">
                                 <i class="fa-solid fa-location-dot"></i> Localização
                             </a></li>
                     </ul>
@@ -185,10 +191,10 @@
             <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
         </form>
     </dialog>
-    
+
     <!-- Script para fechar o moidal -->
     <script>
-         document.getElementById("closeDialog").addEventListener("click", () => {
+        document.getElementById("closeDialog").addEventListener("click", () => {
             document.getElementById("dialogFormBusca").close(); // Fecha o diálogo
         });
     </script>
